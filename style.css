@@ -11,8 +11,8 @@ header {
 }
 
 header img {
-    padding: 3%;
-    max-height: 90vh;
+    padding: 5%;
+    height: 90vh;
     width: 50vw;
     object-fit: cover;
     box-sizing: border-box;
@@ -22,12 +22,16 @@ header div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 
 h1 {
-    position: relative;
+    position: absolute;
+    color: whitesmoke;
     font-size: 3rem;
+    bottom: 10%;
+    left: 15%;
 }
 
 h2 {
