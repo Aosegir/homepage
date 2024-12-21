@@ -50,40 +50,32 @@ h1 {
 /* -- -- */
 
 .dot {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    transition: width 1s 0.25s, height 1s .25s;
-}
-
-
-.dot-row {
-    width: 100vw;
-}
-
-.lower {
-    bottom: 30%;
-    right: 10%;
-}
-
-.upper {
-    top: 30%;
-    left: 10%;
+    width: 150px; /* adjust to control the size */
+    aspect-ratio: 1;
+    --g:/37.02% 37.02% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+    mask: 100% 50% var(--g),65.451% 97.553% var(--g),9.549% 79.389% var(--g),9.549% 20.611% var(--g),65.451% 2.447% var(--g),radial-gradient(100% 100%,#000 25.476%,#0000 calc(25.476% + 1px));
+    transition: width 1s .05s;
 }
 
 .dot:hover {
-    width: 100px;
-    height: 100px;
+    width: 250px;
 }
 
 .black {
-    background-color: black;
+    background-color: #000814;
 }
 
 .purple {
-    background-color: purple;
+    background-color: #3a0ca3;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #0466c8;
+}
+
+.dot-container {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template: repeat(2, 50%) / repeat(4, 25%);
 }
