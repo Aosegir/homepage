@@ -45,6 +45,19 @@
     height: 100%;
 }
 
+.padding {
+    padding: 25px;
+}
+
+.works-grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
+.margin {
+    margin: 25px;
+}
+
 /* -- -- */
 /* -- -- */
 /* -- -- */
@@ -57,7 +70,6 @@ h1 {
 h2 {
     font-size: 3rem;
     letter-spacing: .1rem;
-    padding: 25px;
 }
 
 
