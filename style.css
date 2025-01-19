@@ -51,11 +51,15 @@
 
 .works-grid {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-template: repeat(2, 30vw) / repeat(3, 1fr);
 }
 
 .margin {
     margin: 25px;
+}
+
+.about-text {
+    font-size: 2rem;
 }
 
 /* -- -- */
