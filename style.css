@@ -24,8 +24,9 @@
 }
 
 .bordered {
-    border: 1px solid black;
+    border: 3px solid black;
     box-sizing: border-box;
+    border-radius: 25px;
 }
 
 .absolute {
@@ -84,6 +85,10 @@ img {
     height: 250px;
     width: 250px;
     padding: 25px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* -- -- */
